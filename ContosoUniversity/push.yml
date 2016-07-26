@@ -1,0 +1,12 @@
+applications:
+- name: contoso4
+  memory: 512M
+  instances: 1
+  buildpack: dotnet
+  host: contoso4
+  domain: 172.18.2.202.xip.io
+  services:
+  - contoso-data
+  env:
+    isDebug: True
+  stack: win2012r2

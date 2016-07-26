@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="SchoolContext-Web.config Connection String" description="SchoolContext Connection String used in web.config by the application to access the database." defaultValue="{ContosoUniversity-db#connectionString}" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="Z:\\HPE\\Code\\Hackathon\\windowsapp\\C\#\\ContosoUniversity\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SchoolContext']/@connectionString" />
+  </parameter>
+</parameters>
